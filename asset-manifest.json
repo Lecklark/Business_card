@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Business_card/static/css/main.40b3737c.css",
+    "main.js": "/Business_card/static/js/main.e85b9aef.js",
+    "static/media/Avatar.jpg": "/Business_card/static/media/Avatar.84933874cecd6c2ffd11.jpg",
+    "static/media/VkIcon.png": "/Business_card/static/media/VkIcon.db6e756cb1459971eaa3.png",
+    "index.html": "/Business_card/index.html",
+    "static/media/Mail.svg": "/Business_card/static/media/Mail.341d1e767b26e2540702fb63676d4501.svg",
+    "static/media/getFetch.cjs": "/Business_card/static/media/getFetch.c780682470504fffbd04.cjs",
+    "main.40b3737c.css.map": "/Business_card/static/css/main.40b3737c.css.map",
+    "main.e85b9aef.js.map": "/Business_card/static/js/main.e85b9aef.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.40b3737c.css",
+    "static/js/main.e85b9aef.js"
+  ]
+}
