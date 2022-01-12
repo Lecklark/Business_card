@@ -1,0 +1,20 @@
+{
+    "mainInfo": {
+        "FIO": "Golshtein Alexandr",
+        "position": "Frontend Developer",
+        "portfolioLink": "My portfolio"
+    },
+    "info": {
+        "about": "About",
+        "aboutInf": " A frontend developer interested in developing skills. Programming? What else to do when you are tired of computer games, and the love of sitting in front of a PC has not disappeared? ",
+        "interests": "Interests",
+        "interestsInf": "Food expert.  Reader. Table games fan. Entrepreneur. Travel geek. Coffee fanatic."
+    },
+    "modalEmail": {
+        "callback": "Contact me",
+        "name": "Enter your name",
+        "email": "Your email addres",
+        "message": "Enter message here...",
+        "btnSubmit": "Submit"
+    }
+}

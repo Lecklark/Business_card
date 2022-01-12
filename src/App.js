@@ -1,23 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
+import { useTranslation } from "react-i18next";
+import React, { useState } from 'react';
+import Image from './components/Image';
+import MainPart from './components/MainPart';
+import Footer from './components/Footer';
+import Modal from './components/Modal';
+import EmailForm from './components/EmailForm';
+import Header from './components/Header';
+
 
 function App() {
+  const [activeModal, setActiveModal] = useState(false);
+  const { i18n } = useTranslation();
+
+  const changeLanguage = (language) => {
+    i18n.changeLanguage(language);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="wrapper">
+      <Header changeLanguage={changeLanguage} />
+      <Image />
+      <MainPart setActiveModal={setActiveModal} />
+      <Footer />
+      <Modal active={activeModal} setActiveModal={setActiveModal}>
+        <EmailForm />
+      </Modal>
     </div>
   );
 }
