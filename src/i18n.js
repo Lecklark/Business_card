@@ -21,6 +21,52 @@ i18n
         },
         interpolation: {
             escapeValue: false
+        },
+        resources: {
+            en: {
+                translation: {
+                    "mainInfo": {
+                        "FIO": "Golshtein Alexandr",
+                        "position": "Frontend Developer",
+                        "portfolioLink": "My portfolio"
+                    },
+                    "info": {
+                        "about": "About",
+                        "aboutInf": " A frontend developer interested in developing skills. Programming? What else to do when you are tired of computer games, and the love of sitting in front of a PC has not disappeared? ",
+                        "interests": "Interests",
+                        "interestsInf": "Food expert.  Reader. Table games fan. Entrepreneur. Travel geek. Coffee fanatic."
+                    },
+                    "modalEmail": {
+                        "callback": "Contact me",
+                        "name": "Enter your name",
+                        "email": "Your email addres",
+                        "message": "Enter message here...",
+                        "btnSubmit": "Submit"
+                    }
+                }
+            },
+            ru: {
+                translation: {
+                    "mainInfo": {
+                        "FIO": "Голштейн Александр",
+                        "position": "Фронтенд разработчик",
+                        "portfolioLink": "Портфолио"
+                    },
+                    "info": {
+                        "about": "Обо мне",
+                        "aboutInf": " Фронтенд рабзработчик, заинтересованный в развитии навыков. Программирование? А что еще делать, когда надоели компьютерные игры, а любовь сидеть перед компом не пропала? ",
+                        "interests": "Любимые хобби",
+                        "interestsInf": "Один глаз на монитор, второй на книгу. Свободной ногой готовим торт. Между партиями в Монополию разложим Манчкин. Повысили зарплату? Собираем чемоданы и в путешествие. "
+                    },
+                    "modalEmail": {
+                        "callback": "Обратная связь",
+                        "name": "Ваше имя",
+                        "email": "Ваш email",
+                        "message": "Введите сообщение...",
+                        "btnSubmit": "Отправить"
+                    }
+                }
+            }
         }
     })
 
