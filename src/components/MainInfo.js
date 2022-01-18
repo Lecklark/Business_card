@@ -8,7 +8,7 @@ export default function MainInfo() {
         <div className="main_info">
             <div className="FIO">{t('mainInfo.FIO')}</div>
             <div className="position">{t('mainInfo.position')}</div>
-            <a className="portfolio_link" href="https://lecklark.github.io/Portfolio/">{t('mainInfo.portfolioLink')}</a>
+            <a className="portfolio_link" href="https://lecklark.github.io/React_portfolio/">{t('mainInfo.portfolioLink')}</a>
         </div>
     )
 }
